@@ -44,3 +44,9 @@ def selective_tweet_shortener(tweet)
     tweet
   end
 end
+
+def shortened_tweet_truncator(tweet)
+  tweet = tweet.slice(0, 139)
+end
+
+
