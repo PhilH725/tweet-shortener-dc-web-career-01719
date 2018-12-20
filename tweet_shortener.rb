@@ -21,7 +21,7 @@ def word_substituter(string)
   new_string = ''
   string.each do |word|
     new_word = dictionary(word)
-    new_string += new_word
+    new_string += "#{new_word} "
   end
   new_string
 end
