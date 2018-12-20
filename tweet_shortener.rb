@@ -17,7 +17,7 @@ def dictionary(word)
 end
 
 def word_substituter(string)
-  string.split(' ')
+  string = string.split(' ')
   new_string = ''
   string.each do |word|
     new_word = dictionary(word)
