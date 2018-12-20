@@ -13,7 +13,7 @@ def dictionary(word)
     "and" => '&'
   }
   if dict[word.downcase]
-    dict[word]
+    dict[word.downcase]
   else
     word
   end
