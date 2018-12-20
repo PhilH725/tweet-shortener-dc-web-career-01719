@@ -9,7 +9,7 @@ def dictionary(word)
     "at" => '@' ,
     "and" => '&'
   }
-  if word in dict
+  if dict[word]
     dict[word]
   else
     word
