@@ -23,6 +23,7 @@ def word_substituter(string)
     new_word = dictionary(word)
     new_string += "#{new_word} "
   end
+  new_string = new_string[]
   new_string
 end
 
