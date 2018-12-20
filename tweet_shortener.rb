@@ -12,7 +12,7 @@ def dictionary(word)
     "at" => '@' ,
     "and" => '&'
   }
-  if dict[word.lower]
+  if dict[word.downcase]
     dict[word]
   else
     word
