@@ -1,5 +1,6 @@
 # Write your code here.
 def dictionary(word)
+  word = word.downcase
   dict = {
     "hello" => 'hi' ,
     "to" => '2' ,
@@ -12,8 +13,8 @@ def dictionary(word)
     "at" => '@' ,
     "and" => '&'
   }
-  if dict[word.downcase]
-    dict[word.downcase]
+  if dict[word]
+    dict[word]
   else
     word
   end
